@@ -19,19 +19,23 @@ Testar se modelos não-lineares/ensemble (Random Forest e XGBoost) superam um ba
 - Python 3.9 ou superior
 - pip
 
-## Instalação
+## Instalação e Configuração
 
-1. Clone ou baixe este repositório.
-2. (Recomendado) Crie um ambiente virtual:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # Linux/Mac
-   venv\Scripts\activate         # Windows
-   ```
-3. Instale as dependências:
-   ```bash
-   pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost
-   ```
+### 1. Clone o Repositório
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+
+### 2. Instale as Dependências
+```bash
+pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost
+```
+
+### 3. Execute o Notebook
+```bash
+jupyter notebook MVP_Análise_de_Dados_e_Boas_Práticas.ipynb
+```
 
 ## Obtendo o dataset
 
